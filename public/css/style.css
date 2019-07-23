@@ -1,0 +1,431 @@
+/* General */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* End General */
+
+/************************/
+
+/* NavbarHeader */
+
+.navbar-brand {
+    margin-right: 0rem;
+}
+
+.navbar-brand img {
+    margin: 10px 0 10px 0;
+}
+
+.right-banner {
+    display: inline-block;
+    float: right;
+    padding: 30px 0 25px 0;
+}
+
+.notification, .search-form, .login {
+    display: inline-block;
+    padding: 0px 10px 0 10px;
+    font-size: 15px;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form i.fa.fa-search {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+
+/* End NavbarHeader */
+
+/***************************/
+
+/* Navbar */
+
+/* End Navbar */
+
+/****************************/
+
+/* Headline */
+
+.headline h1 {
+    font-size: 21px;
+}
+
+.stream-post{
+  width: 100%;
+}
+
+.stream-post a img {
+    width: 100%;
+}
+
+.stream-post-content{
+  margin-left: 20px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.related-stream-single-post{
+  display: flex;
+  flex-basis: 35%;
+  margin-bottom: 20px;
+}
+
+.stream-post-first{
+  flex-basis: 40%;
+}
+
+.stream-post-second{
+  flex-basis: 30%;
+  margin-left: 30px;
+}
+
+.related-stream-single-post-content{
+  margin-left: 15px;
+}
+
+.stream-post-content-second{
+  margin-top: 20px
+}
+
+.see-more{
+  text-align: right;
+  margin: 10px auto;
+  max-width: 1200px;
+}
+
+.divider{
+  max-width: 1200px;
+  margin: 10px auto;
+  border-bottom: 1px solid gray;
+}
+
+/* End Headline */
+
+/***************************/
+
+/* Post-list */
+
+.post-list {
+    flex-basis: 60%;
+    padding-bottom: 50px;
+}
+
+.single-post{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* End Post-list*/
+
+/****************************/
+
+/* RightSidebar */
+
+.right-side{
+    flex-basis: 40%;
+  position: sticky;
+  top: 60px;
+}
+
+.right-post{
+    margin-left: 60px;
+}
+
+.right-post-header{
+    display: flex;
+    background-color: #d7efee;
+    padding: 8px;
+}
+
+.right-post-header-txt{
+    margin-right: 70px;
+    margin-left: 15px;
+    font-weight: 600 ! important;
+}
+
+.list-right-single-post{
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.list-right-single-post .img-author img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.right-single-post{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.right-single-post-summary{
+    margin-left: 16px !important;
+}
+
+.right-single-post-summary .title {
+    font-size: 20px;
+}
+
+.footer{
+    margin-top: 10px;
+    border-top: 1px solid;
+    width: 80%;
+    margin-left: 60px;
+}
+
+.footer-link{
+    padding:5px 0 5px 0 ! important;
+}
+
+.footer-link a{
+    margin-right: 10px;
+    color: #000;
+}
+
+
+/* End RightSidebar */
+
+
+
+.under-headline{
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.right-post-header-img{
+    width: 135px ! important;
+}
+
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+
+/*******************************/
+
+
+/* PostDetail */
+
+.post-detail {
+    padding: 30px 0 50px 0px;
+    position: relative;
+}
+
+.post-detail .post-title h1 {
+    font-size: 40px;
+    padding: 20px 0 30px 10px;
+    font-weight: bold;
+}
+
+ul.post-tags {
+    list-style-type: none;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+ul.post-tags i {
+    color: darkmagenta;
+}
+
+.post-detail .post-tags li {
+    padding: 0px 20px 0 20px;
+}
+
+.post-detail .post-tags li.post-author img{
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.post-detail .post-tags li.post-count-comment {
+  margin-top: 7px;
+}
+
+.post-detail .post-tags li.post-count-view {
+  margin-top: 7px;
+}
+
+div.post-tags {
+    padding: 10px 0px 10px 0;
+}
+
+.post-detail .post-category span {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.post-detail .post-content {
+    padding-left: 40px;
+}
+
+.post-detail .post-share {
+position: absolute;
+    top: 250px;
+    margin: 0 0px 0 -55px;
+    left: 0px;
+}
+
+.post-detail .post-share ul.list-social {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.post-detail .post-share ul.list-social li {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0px 5px 0 15px;
+    background-color: whitesmoke;
+}
+
+.post-detail .post-share ul.list-social li.facebook-share {
+    color: #1c76e6;
+    margin-bottom: 10px;
+}
+
+.post-detail .post-share ul.list-social li.twitter-share {
+    color: #1c76e6a8;
+}
+
+.post-comment {
+    width: 100%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.post-detail .post-tag h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.post-detail .post-tag ul.tags-list {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.post-detail .post-tag ul.tags-list li {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid black;
+    border-radius: 25%;
+    margin: 0 10px 0 10px;
+}
+
+/* End PostDetail*/
+
+/************************************/
+
+/* Error404 */
+
+.error-404 {
+    padding: 100px 10px 10px 10px;
+}
+
+.error-404 .error-banner {
+    padding: 0 0 50px 0px;
+}
+
+.error-404 .error-banner h1 {
+    font-weight: bold;
+    color: #901f1f;
+        font-size: 70px;
+}
+
+.error-404 .error-banner h1 span {
+    color: red;
+    font-size: 100px;
+}
+
+.error-404 .error-banner p {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.error-404 .go-to-homepage a {
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* End Error404*/
+
+/******************************/
+
+/* Category */
+
+.list-post-category {
+    padding-bottom: 20px;
+}
+
+.list-post-category .pagination-category {
+    padding: 30px 0 30px 0px;
+}
+
+/* End Category */
+
+/*************************/
+
+/* Tag */
+
+.list-post-tag {
+    padding-bottom: 20px;
+}
+
+.list-post-tag .list-tittle h1 span {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.list-post-tag .pagination-tag {
+    padding: 30px 0 30px 0px;
+}
+
+/* End Tag */
+
+/*******************************/
+
+/* Search */
+
+.search-form-page {
+    padding: 30px 0 30px 20px;
+}
+
+.search-form-page input.form-control.mr-sm-2 {
+    padding: 10px 150px 10px 20px;
+}
+
+.search-form-page button.btn.btn-success {
+    padding: 10px;
+}
+
+.list-post-search {
+    padding-bottom: 20px;
+}
+
+.list-post-search .list-tittle h1 span {
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+}
+
+.list-post-search .pagination-tag {
+    padding: 30px 0 30px 0px;
+}
+
+/* End Search */

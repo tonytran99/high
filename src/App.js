@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'; 
+import Index from './components/pages/Index';
+import Error404 from './components/pages/Error404';
+import Category from './components/pages/Category';
+import Contact from './components/pages/Contact';
+import About from './components/pages/About';
+import PostDetail from './components/pages/PostDetail';
+import Tag from './components/pages/Tag';
+import Register from './components/pages/Register';
+import Search from './components/pages/Search';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { BrowserRouter as Router, Route, Link ,Switch} from 'react-router-dom'
+
+
+class App extends Component { 
+	render(){
+		return (
+			<Router>
+				<div className="App">
+					<Switch>
+						<Route exact path="/" component={Index} />
+						<Route path="/about" component={About} />
+						<Route path="/register" component={Register} />
+						<Route path="/contact" component={Contact} />
+						<Route path="/search" component={Search} />
+						<Route path="/tag" component={Tag} />
+						<Route path="/category" component={Category} />
+						<Route path="/postdetail" component={PostDetail} />
+						<Route path="/*" component={Error404} />
+					</Switch>
+				</div>
+			</Router>
+		); 
+	}
+} 
 
 export default App;
