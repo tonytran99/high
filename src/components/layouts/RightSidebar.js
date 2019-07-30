@@ -4,7 +4,7 @@ import Footer from './RightSidebar/Footer';
 class RightSidebar extends Component {
 	render(){
 		return (
-			<div class="right-side">
+			<div className="right-side">
 				<PopularPost/>
 				<Footer/>						
 			</div>

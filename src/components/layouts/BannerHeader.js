@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo_high_black.png';
-
+import {Link} from 'react-router-dom'
 class BannerHeader extends Component {
 	render(){
 		return(
@@ -20,7 +20,7 @@ class BannerHeader extends Component {
 							 <i className="fa fa-search"></i>
 						</div>
 						<div className="login">
-							<a href="">Login</a>
+							<Link to='/signin'>Sign In</Link>
 						</div>
 					</div>
 				</div>

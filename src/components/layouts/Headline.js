@@ -6,23 +6,23 @@ import StreamPostSecond from './Headline/StreamPostSecond';
 class Headline extends Component {
 	render(){
 		return (
-			<div class="headline">
-				<div class="container">
-					<div class="row">
-			            <div class="col-xl-4 col-md-6">
+			<div className="headline">
+				<div className="container">
+					<div className="row">
+			            <div className="col-xl-4 col-md-6">
 			            	<StreamPostFirst/>
 			            </div>
-			            <div class="col-xl-4 col-md-6">
+			            <div className="col-xl-4 col-md-6">
                              <RelatedStreamPost/> 
 			            </div>
-			            <div class="col-xl-4">
+			            <div className="col-xl-4">
 							<StreamPostSecond/>
 			            </div>			
 			        </div>
-			         <div class='see-more'>
+			         <div className='see-more'>
 				        SEE MORE >
 				    </div>
-				    <div class='divider'></div>
+				    <div className='divider'></div>
 				</div>
 			</div>
 		);
