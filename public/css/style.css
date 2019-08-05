@@ -124,7 +124,9 @@ a:hover {
     display: flex;
     margin-bottom: 20px;
 }
-
+.single-post-content{
+    width: 100%;
+}
 /* End Post-list*/
 
 /****************************/
@@ -429,3 +431,25 @@ position: absolute;
 }
 
 /* End Search */
+
+/* Category */
+
+.row-cate{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.profile-img{
+    border-radius: 50%;
+    border: 1px solid rgb(219, 208, 208);
+    cursor: pointer;
+}
+.toggle-form{
+    height: 317px;
+    width: 220px;
+    z-index: 1050;
+    background-color: #fff;
+    overflow: auto;
+    position: fixed;
+    top: 75px;
+    left: 78%;
+}
